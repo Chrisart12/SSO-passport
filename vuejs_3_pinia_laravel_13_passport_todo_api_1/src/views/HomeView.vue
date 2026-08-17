@@ -3,7 +3,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { useAuthStore } from '@/stores/auth'
 
-const counterStore = useCounterStore()
+// const counterStore = useCounterStore()
 const authStore = useAuthStore()
 
 
@@ -16,13 +16,13 @@ const authStore = useAuthStore()
         <h2>Welcome, {{ authStore.user.name }}!</h2>
         <p>You are logged in.</p>
       </div>
-      <h1 class="count">{{ counterStore.count }}</h1>
+      <!-- <h1 class="count">{{ counterStore.count }}</h1> -->
       <button class="btn" @click="counterStore.increment" type="button">+</button>
       <button class="btn" @click="counterStore.decrement" type="button">-</button>
     </div>
     
     <hr>
-    <div> The counter value is: {{ counterStore.oddOrEven }}</div>
+    <!-- <div> The counter value is: {{ counterStore.oddOrEven }}</div> -->
   </div>
 </template>
 <style>

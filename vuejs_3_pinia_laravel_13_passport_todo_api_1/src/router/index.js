@@ -17,6 +17,21 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
+    {
+      path: '/todo',
+      name: 'todo',
+      component: () => import('../views/TodoView.vue'),
+    },
+    {
+      path: '/todo/create',
+      name: 'todo-create',
+      component: () => import('../views/TodoCreateView.vue'),
+    },
+    {
+      path: '/todo/:id/edit',
+      name: 'todo-edit',
+      component: () => import('../views/TodoEditView.vue'),
+    },
   ],
 })
 

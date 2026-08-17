@@ -35,7 +35,7 @@ export const useAuthStore = defineStore('auth', () => {
       // Passport encore active et reconnecte instantanément sans repasser
       // par le formulaire.
       window.location.href ='http://localhost:8000/oauth/logout?redirect_uri=' +
-      encodeURIComponent('http://localhost:5174/')
+      encodeURIComponent('http://localhost:5177/')
 
         return null
     } catch (errors) {

@@ -9,7 +9,6 @@
     "sail": false,
     "skills": [
         "infer-conventions",
-        "laravel-best-practices",
-        "tailwindcss-development"
+        "laravel-best-practices"
     ]
 }

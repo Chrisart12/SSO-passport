@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'client_id' => ['a24be1c4-018d-4cf5-a4f8-9ce86452563a', 'a27ea5af-af2b-4795-98c1-fdf29ad8a714'],
+    'client_id' => ['a24be1c4-018d-4cf5-a4f8-9ce86452563a', 'a27ea5af-af2b-4795-98c1-fdf29ad8a714', 'aa2867c50-daea-4fef-8758-ed9a4ff90a9b'],
     'trusted_client_ids' => array_filter(explode(',', env('PASSPORT_TRUSTED_CLIENT_IDS', ''))),
 
     'allowed_logout_redirect_hosts' => [
